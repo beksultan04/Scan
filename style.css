@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.qr-card {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.qr-card h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.qr-card img {
+    width: 220px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.qr-card p {
+    font-size: 14px;
+    color: #666;
+}
